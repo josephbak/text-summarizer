@@ -3,7 +3,6 @@ from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 
-
 # Get the text/article from the Internet or prompt the user
 text = "Some text from main file"
 
@@ -11,6 +10,9 @@ text = "Some text from main file"
 sentences = sent_tokenize(text)
 sentences_num = len(sentences)
 ps = PorterStemmer()
+
+def main():
+    return
 
 def text_to_words(sentences):
     """
@@ -40,6 +42,7 @@ def word_frequency_dict(words):
 def sentence_score_dict(sentences, freq_dict):
     """
     Creating a dictionary to keep the score of each sentence.
+    For now, only using the first 15 words of sentence, this part should be modified for more flexibility.
     """
     sent_value = dict()
     for sentence in sentences:
@@ -67,6 +70,7 @@ def average_score(sent_value):
 def generate_summary(sentences, sent_value, avg):
     """
     Generate a summary sentence for sentence score greater than average.
+    15 words for now, need to be modified.
     """
     sentence_count = 0
     summary = ""
