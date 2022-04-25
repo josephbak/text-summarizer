@@ -10,10 +10,11 @@
 ## Methods
 <ul>
 	<li> Frequency </li>
+    <li> LexRank </li>
+    <li> Luhn </li>
+    <li> Latent Semantic Analysis </li>
+    <li> TextRank </li>
     <li> Gensim </li>
-    <li> Sumy </li>
-    <li> SpaCy </li>
-    <li> Seq2Seq </li>
     <li> BERT </li>
     <li> More Neural Network </li>
 </ul>
