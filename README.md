@@ -1,6 +1,6 @@
 # Text Summarizer
 
-## Types of Text Summarization
+## Approaches of Text Summarization
 <ul>
     <li> <a href="https://en.wikipedia.org/wiki/Automatic_summarization#Extraction-based_summarization">Extractive Summarization</a> </li>
     <li> <a href="https://en.wikipedia.org/wiki/Automatic_summarization#Abstraction-based_summarization">Abstractive Summarization</a> </li>
@@ -10,7 +10,6 @@
 ## Methods
 <ul>
 	<li> Frequency </li>
-    <li> NLTK </li>
     <li> Gensim </li>
     <li> Sumy </li>
     <li> SpaCy </li>
