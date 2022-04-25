@@ -3,16 +3,7 @@ from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 
-# Get the text/article from the Internet or prompt the user
-text = "Some text from main file"
-
-# sentence-tokenized copy of text
-sentences = sent_tokenize(text)
-sentences_num = len(sentences)
 ps = PorterStemmer()
-
-def main():
-    return
 
 def text_to_words(sentences):
     """
@@ -80,6 +71,3 @@ def generate_summary(sentences, sent_value, avg):
             summary += sent + " "
             sentence_count += 1
     return summary
-
-if __name__ == '__main__':
-    main()
